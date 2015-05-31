@@ -69,7 +69,7 @@ var cm = require("sdk/context-menu");
 cm.Item(Item("", function (selection) {
     return selection.html;
 }, function (selection, text) {
-    if (selection.html)
+    if (selection.text)
       selection.html = text
 }));
 /**********************
