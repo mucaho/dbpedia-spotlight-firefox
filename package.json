@@ -1,0 +1,29 @@
+{
+  "title": "DBPedia Spotlight Firefox addon",
+  "name": "dbpedia-spotlight-firefox",
+  "version": "0.0.1",
+  "description": "Firefox addon that annotates entities using DBPedia Spotlight service.",
+  "icon": "data/icon-48.png",
+  "keywords":[
+    "dbpedia",
+    "dbpedia-spotlight",
+    "spotlight",
+    "NER"
+  ],
+  "author": "mucaho <mkucko@gmail.com>",
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/mucaho/dbpedia-spotlight-firefox",
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/mucaho/dbpedia-spotlight-firefox"
+  },
+  "bugs":{
+    "email":"mkucko@gmail.com",
+    "url":"https://github.com/mucaho/dbpedia-spotlight-firefox/issues"
+  },
+  "main": "index.js",
+  "engines": {
+    "firefox": ">=38.0a1",
+    "fennec": ">=38.0a1"
+  }
+}
