@@ -6,14 +6,15 @@ var panel = require("sdk/panel").Panel({
   width: 400,
   height: 300,
   onHide: function() {
-    panel.port.emit("replace", "<div></div>");
+    panel.contentURL = "./undefined";
+    panel.contentURL = "./panel.html";
   },
   contentURL: "./panel.html",
   contentScript: "self.port.on('replace', function onShow(data) {" +
                  "  document.body.innerHTML = data;" +
                  "});" +
                  "self.port.on('append', function onShow(data) {" +
-                 "  var body = document.getElementById('body');" +
+                 "  var body = document.body;" +
                  "  var newcontent = document.createElement('div');" +
                  "  newcontent.innerHTML = data;" +
                  "  while (newcontent.firstChild)" +
