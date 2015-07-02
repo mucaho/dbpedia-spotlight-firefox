@@ -1,7 +1,7 @@
 {
   "title": "DBPedia Spotlight Firefox addon",
   "name": "dbpedia-spotlight-firefox",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Firefox addon that annotates entities using DBPedia Spotlight service.",
   "icon": "data/icon-48.png",
   "keywords":[
